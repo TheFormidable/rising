@@ -152,3 +152,7 @@ BOARD_AVB_SYSTEM_DLKM_ADD_HASHTREE_FOOTER_ARGS += --hash_algorithm sha256
 
 # Inherit the proprietary files
 include vendor/xiaomi/duchamp/BoardConfigVendor.mk
+
++# RisingOS-specific configurations
++TARGET_RISINGOS_VERSION := 14.0
++BOARD_SEPOLICY_DIRS += device/xiaomi/duchamp/sepolicy
