@@ -132,3 +132,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
+
++# RisingOS-specific dependencies
++PRODUCT_PACKAGES += rising_utils
